@@ -1,0 +1,3 @@
+function absolute(x : Int) : Int { if (x > 0) x; else -x }
+function max(x : Int, y : Int) : Int { if (x > y) x; else y }
+max(absolute(-5), 4)
